@@ -1,7 +1,8 @@
 public class Materia {
 
     public int quantdeprovas;
-    public int oi = 1;
+    public int oi = 2;
+    // testando o git
 
     public Materia(int quantdeprovas) {
         this.quantdeprovas = quantdeprovas;
