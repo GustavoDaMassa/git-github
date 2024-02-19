@@ -1,7 +1,7 @@
 public class Materia {
 
     public int quantdeprovas;
-    public int oi;
+    public int oi = 1;
 
     public Materia(int quantdeprovas) {
         this.quantdeprovas = quantdeprovas;

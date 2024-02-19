@@ -2,10 +2,11 @@ import java.util.Scanner;
 import java.math.*;
 
 public class m {
+    // testando git
 
     public static void main(String[] args) {
 
-        double menor;
+        double menor = 0;
         double media = 0;
         double nnotas = 0;
         double notas[] = new double[16];
@@ -52,6 +53,7 @@ public class m {
             desc = arredondar(desc);
         }
 
+        System.out.printf("foram descartadas %.1lf notas.\n", desc);
         System.out.println("foram descartadas " + desc + " notas.");
 
         int m = 0;
@@ -59,34 +61,23 @@ public class m {
 
             menor = notas[m];
             for (int j = 0; j < notas.length; j++) {
-                if (notas[j] < menor) {
+                if (notas[j] < menor)
                     menor = notas[j];
-                    m = j;
-                    // System.out.println(m);
-                }
+                m = j;
             }
             notas[m] = 11;
-            /*
-             * System.out.println(m);
-             * System.out.println(notas[m]);
-             * System.out.println("---------");
-             */
+
         }
 
-        /*
-         * for (double d : notas) {
-         * System.out.println(d);
-         * }
-         */
         soma = 0;
         for (int i = 0; i < notas.length; i++) {
             if (notas[i] != 12 && notas[i] != 11)
                 soma += notas[i];
-            // System.out.println(i + "-" + soma);
+            System.out.println(soma);
 
         }
 
-        // System.out.println(soma);
+        System.out.println(soma);
         media = soma / (nnotas - desc);
 
         System.out.printf("nota com 25 porcento descartado: %.2f ", media);
