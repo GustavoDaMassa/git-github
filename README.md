@@ -26,12 +26,12 @@
 ###  git checkout 
 - transita entre as branchs
 - ***git chechout 'branch1'***
-###  git branch -b 
+###  git checkout -b 
   - cria uma nova branch 
-  -*** git branch -b 'branch1' (branch1 criada apartir da branch atual)***
+  - ***git checkout -b 'branch1' (branch1 criada apartir da branch atual)***
  ### git remote add 
  - adiciona um novo repositório remoto
- -*** git remote add 'origin' 'url' ( repositorio origin add)***
+ - ***git remote add 'origin' 'url' ( repositorio origin add)***
  ###  git push 
 - empurra as alterações do repositório local para o repositório remoto
 - ***git push 'origin' 'branch1' (nome do repositorio remoto, nome da branch)***
@@ -40,7 +40,7 @@
   - ***git push 'origin' 'branch1' (nome do repositorio remoto, nome da branch)***
 ### git fetch
 - sincroniza o repositório local de acordo com o histórico do repositório remoto 
-- todas as atualizações de branches, novas branches, etc...
+- todas as atualizações de branches, novas branches, etc..
     
 
 
