@@ -1,9 +1,9 @@
-package Codigo;
+package Medias;
 
 import java.util.Scanner;
 import java.math.*;
 
-public class m {
+public class Bd {
     // testando git
 
     public static void main(String[] args) {

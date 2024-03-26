@@ -1,4 +1,4 @@
-package Codigo;
+package Medias;
 
 public class Materia {
 
