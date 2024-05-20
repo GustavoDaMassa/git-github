@@ -24,7 +24,9 @@
     <br> quebra de linha <br>
     <small>texto menor</small><br>
     <u>sublinhado</u><br>
-    <del class="aq" >deletar(riscar)</del><br>
+    <div id="aq" class="aq">
+        <del>deletar(riscar)</del><br>
+    </div>
     <sup>potencia<sup>exponencial</sup><br>
     <sub>log<sub>na base embaixo</sub></sub><br>
     <mark>marca texto</mark><br>
