@@ -43,5 +43,30 @@
 - todas as atualizações de branches, novas branches, etc..
     
 
+# Padrões de commit 
 
+Sempre é bom usar um padrão também para a escolha do nome da branch:
+<id-da-tarefa>/<resumo-da-feature>
+
+### feat: 
+  - novo recurso para a aplicação.
+### fix: 
+  - correções de bugs.
+### docs: 
+  - Alterações relacionadas a documentação.
+### Style: 
+  - Alterações de estilização, formatação ou identação.
+### Refactor: 
+  - codigo de refatoração, alterado
+  - transparente para o usuário final, porém uma mudança real para a aplicação.
+### perf: 
+  - alterações relacionadas a performance.
+### test: 
+  - Criação ou modificação de testes.
+### chore: 
+ - atualização de pacotes, arquivos,
+ - Organização.
+
+Exemplo: 
+- *feat: create new resource*
 
