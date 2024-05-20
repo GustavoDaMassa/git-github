@@ -6,8 +6,9 @@
     <meta name="description" content="Site para treino de hmtl!">
     <meta name="Keywords" content="site,html,ranking,visualização">
     <meta name="author" content="Gustavo Henrique Pereira da Silva">
-    <title>Document</title>
+    
 </head>
+    [Documentação do Markdown no GitHub](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#GitHub-flavored-markdown)
     <h1> Boa noite senhoras e senhores!!! </h1>
 <body>
     <h1> <a href="#aq">Título 1</a></h1>
