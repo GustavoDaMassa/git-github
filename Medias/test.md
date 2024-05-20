@@ -10,7 +10,7 @@
 </head>
     <h1> Boa noite senhoras e senhores!!! </h1>
 <body>
-    <h1>Título 1</h1>
+    <h1 href="#aq">Título 1</h1>
     <h2>Título 2</h2>
     <h3>Título 3</h3>
     <h4>Título 4</h4>
@@ -24,7 +24,7 @@
     <br> quebra de linha <br>
     <small>texto menor</small><br>
     <u>sublinhado</u><br>
-    <del>deletar(riscar)</del><br>
+    <del class="aq" >deletar(riscar)</del><br>
     <sup>potencia<sup>exponencial</sup><br>
     <sub>log<sub>na base embaixo</sub></sub><br>
     <mark>marca texto</mark><br>
