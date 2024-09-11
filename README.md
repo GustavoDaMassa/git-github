@@ -1,5 +1,5 @@
 # GIT 
-
+respositório com os principais comandos no Git, e alguns padrões de commit's
 ### *Funcionalidades:*
 
 ###  git init
