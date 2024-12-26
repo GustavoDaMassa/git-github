@@ -42,6 +42,15 @@ respositório com os principais comandos no Git, e alguns padrões de commit's
 - sincroniza o repositório local de acordo com o histórico do repositório remoto 
 - todas as atualizações de branches, novas branches, etc..
     
+### git remote -v 
+- Lista os repositórios remotos em que o reppositório local referencia
+
+###  git remote rename origin novo-nome
+- Usa o comando git remote rename para renomear o remoto.
+
+bash
+Copiar código
+
 
 # Padrões de commit 
 
