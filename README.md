@@ -50,6 +50,10 @@ respositório com os principais comandos no Git, e alguns padrões de commit's
 ###  git remote rename origin novo-nome
 - Usa o comando git remote rename para renomear o remoto.
 
+### git rm --cached
+  - remove arquivos do rastreamento do git/gitHub.
+  - git rm --cached <path do arquivo em questão>
+
 bash
 Copiar código
 
