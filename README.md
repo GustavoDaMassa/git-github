@@ -23,6 +23,8 @@ respositório com os principais comandos no Git, e alguns padrões de commit's
  -   ***git merge 'branch1' (branch1 será unida à brancha atual)***
 ###  git branch
 - mostra a branch atual e as existentes
+###  git branch -m <newName>
+- atualiza o nome da branch atual
 ###  git checkout 
 - transita entre as branchs
 - ***git chechout 'branch1'***
