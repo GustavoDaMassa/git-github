@@ -1,6 +1,10 @@
 # GIT 
 respositório com os principais comandos no Git, e alguns padrões de commit's
 ### *Funcionalidades:*
+### Autenticação por token 
+  - Primeiro é nescessário [gerar um novo token ](https://github.com/settings/tokens)
+  - adicionar o token ao git :
+    -   git remote set-url origin https://'USERNAME':'TOKEN'@github.com/'USERNAME'/'NAME_REPOSITORY'.git
 
 ###  git init
   - iniciar novo projeto 
