@@ -49,7 +49,7 @@ respositório com os principais comandos no Git, e alguns padrões de commit's
 - todas as atualizações de branches, novas branches, etc..
     
 ### git remote -v 
-- Lista os repositórios remotos em que o reppositório local referencia
+- Lista os repositórios remotos em que o repositório local referencia
 
 ###  git remote rename origin novo-nome
 - Usa o comando git remote rename para renomear o remoto.
@@ -57,6 +57,8 @@ respositório com os principais comandos no Git, e alguns padrões de commit's
 ### git rm --cached
   - remove arquivos do rastreamento do git/gitHub.
   - git rm --cached <path do arquivo em questão>
+### git restore --staged <nome-do-arquivo>
+  - Para remover arquivos do stage antes de fazer um commit no Git,
 
 bash
 Copiar código
