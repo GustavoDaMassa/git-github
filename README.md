@@ -57,6 +57,7 @@ respositório com os principais comandos no Git, e alguns padrões de commit's
 ### git rm --cached
   - remove arquivos do rastreamento do git/gitHub.
   - git rm --cached <path do arquivo em questão>
+  - Após a execução do comando é necessário fazer um commit para salvar as alterações
 ### git restore --staged <nome-do-arquivo>
   - Para remover arquivos do stage antes de fazer um commit no Git,
 
