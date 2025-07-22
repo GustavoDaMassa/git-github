@@ -18,7 +18,7 @@
     console.log(`🗑️ Repost removido! Total até agora: ${removidos}`);
 
     // Espera 2 segundos pra ter certeza que foi removido
-    await new Promise(r => setTimeout(r, 2000));
+    // await new Promise(r => setTimeout(r, 1000));
 
     // Tenta achar o botão de próximo vídeo
     const nextBtn = document.querySelector('button[aria-label="Go to next video"]');
@@ -31,7 +31,7 @@
     }
 
     // Espera 2 segundos para o próximo vídeo carregar
-    await new Promise(r => setTimeout(r, 2000));
+   // await new Promise(r => setTimeout(r, 2000));
   }
 
   console.log(`🏁 Fim do script. Total de reposts removidos: ${removidos}`);
